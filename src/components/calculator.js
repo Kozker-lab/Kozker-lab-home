@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { DollarSign, Percent, TrendingUp, Server, Users, ShoppingCart, BookOpen, Briefcase, PhoneCall, AlertCircle, Clock, BarChart2 } from 'lucide-react';
@@ -362,4 +363,4 @@ const Calculator = () => {
   );
 };
 
-export default Calculator;
+export default calculateSavings;

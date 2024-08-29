@@ -6,7 +6,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 import { ArrowRight, BarChart2, Zap, Layers, TrendingUp, ChevronDown, Menu, X, BlocksIcon } from 'lucide-react';
 import { loadSlim } from "tsparticles-slim";
 import Particles from "react-particles";
-import Calculator from '@/components/calculator'
+import {Button, buttonVariants} from '@/components/ui/button'
 
 const data = [
   { name: 'Jan', value: 1000 },
